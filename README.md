@@ -6,11 +6,12 @@ Papers are ordered in arXiv submitting time (if applicable).
 
 ## Supervised
 
-|      | Model      | Paper                                                        | Conference | paper link                                     | code link                                                    |
-| ---- | ---------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ------------------------------------------------------------ |
-|      | pix2pix    | Image-to-Image Translation with Conditional Adversarial Networks | CVPR 2017  | [1611.07004](https://arxiv.org/abs/1611.07004) | [junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) |
-|      | pix2pix-HD | High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | CVPR 2018  | [1711.11585](https://arxiv.org/abs/1711.11585) | [NVIDIA/pix2pixHD](https://github.com/NVIDIA/pix2pixHD)      |
-|      | BicycleGAN | Toward Multimodal Image-to-Image Translation                 | NIPS 2017  | [1711.11586](https://arxiv.org/abs/1711.11586) | [junyanz/BicycleGAN](https://github.com/junyanz/BicycleGAN)  |
+|      | Model          | Paper                                                        | Conference | paper link                                     | code link                                                    |
+| ---- | -------------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ------------------------------------------------------------ |
+|      | pix2pix        | Image-to-Image Translation with Conditional Adversarial Networks | CVPR 2017  | [1611.07004](https://arxiv.org/abs/1611.07004) | [junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) |
+|      | Contextual GAN | Image Generation from Sketch Constraint Using Contextual GAN | ECCV 2018  | [1705.09966](https://arxiv.org/abs/1705.09966) |                                                              |
+|      | pix2pix-HD     | High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | CVPR 2018  | [1711.11585](https://arxiv.org/abs/1711.11585) | [NVIDIA/pix2pixHD](https://github.com/NVIDIA/pix2pixHD)      |
+|      | BicycleGAN     | Toward Multimodal Image-to-Image Translation                 | NIPS 2017  | [1711.11586](https://arxiv.org/abs/1711.11586) | [junyanz/BicycleGAN](https://github.com/junyanz/BicycleGAN)  |
 
 
 
