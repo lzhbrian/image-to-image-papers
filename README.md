@@ -6,13 +6,14 @@ Papers are ordered in arXiv first version submitting time (if applicable).
 
 
 
-TOC
+__TOC__
 
 - [Supervised](#supervised)
 - [Unsupervised](#unsupervised)
-    - [with Attention or Mask/Keypoints guided](#unsupervised-with-attention-or-maskkeypoints-guided)
-    - [with Many-to-many (Attributes)](#unsupervised-with-many-to-many-attributes)
-    - [with Disentangled (Exemplar guided)](#unsupervised-with-disentangled-exemplar-guided)
+  - [Unsupervised -General](#unsupervised---general)
+  - [Unsupervised - Attention or Mask/Keypoints guided](#unsupervised---attention-or-maskkeypoints-guided)
+  - [Unsupervised - Many-to-many (Attributes)](#unsupervised---many-to-many-attributes)
+  - [Unsupervised - Disentangled (Exemplar guided)](#unsupervised---disentangled-exemplar-guided)
 
 
 
@@ -31,6 +32,8 @@ TOC
 
 ## Unsupervised
 
+### Unsupervised - General
+
 | Note | Model        | Paper                                                        | Conference | paper link                                                   | code link                                                    |
 | ---- | ------------ | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |      | DTN          | Unsupervised Cross-Domain Image Generation                   | ICLR 2017  | [1611.02200](https://arxiv.org/abs/1611.02200)               | [yunjey/domain-transfer-network (unofficial)](https://github.com/yunjey/domain-transfer-network) |
@@ -47,7 +50,7 @@ TOC
 
 
 
-### Unsupervised with Attention or Mask/Keypoints guided
+### Unsupervised - Attention or Mask/Keypoints guided
 
 | Note             | Model         | Paper                                                        | Conference | paper link                                     | code link |
 | ---------------- | ------------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------- | --------- |
@@ -58,7 +61,7 @@ TOC
 
 
 
-### Unsupervised with Many-to-many (Attributes)
+### Unsupervised - Many-to-many (Attributes)
 | Note | Model                        | Paper                                                        | Conference                    | paper link                                     | code link                                                    |
 | ---- | ---------------------------- | ------------------------------------------------------------ | ----------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
 |      | Conditional CycleGAN         | Conditional CycleGAN for Attribute Guided Face Image Generation | ECCV 2018                     | [1705.09966](https://arxiv.org/abs/1705.09966) |                                                              |
@@ -70,9 +73,9 @@ TOC
 
 
 
-### Unsupervised with Disentangled (Exemplar guided)
+### Unsupervised - Disentangled (Exemplar guided)
 
-|      | Model                        | Paper                                                        | Conference | paper link                                     | code link                                                    |
+| Note | Model                        | Paper                                                        | Conference | paper link                                     | code link                                                    |
 | ---- | ---------------------------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ------------------------------------------------------------ |
 |      | XGAN                         | XGAN: Unsupervised Image-to-Image Translation for Many-to-Many Mappings | ICML 2018  | [1711.05139](https://arxiv.org/abs/1711.05139) | [dataset](https://google.github.io/cartoonset/)              |
 |      | ELEGANT                      | ELEGANT: Exchanging Latent Encodings with GAN for Transferring Multiple Face Attributes | ECCV 2018  | [1803.10562](https://arxiv.org/abs/1803.10562) | [Prinsphield/ELEGANT](https://github.com/Prinsphield/ELEGANT) |
