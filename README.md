@@ -42,7 +42,6 @@ __TOC__
 |      | CycleGAN     | Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks | ICCV 2017  | [1703.10593](https://arxiv.org/abs/1703.10593)               | [junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) |
 |      | DualGAN      | DualGAN: Unsupervised Dual Learning for Image-to-Image Translation | ICCV 2017  | [1704.02510](https://arxiv.org/abs/1704.02510)               | [duxingren14/DualGAN](https://github.com/duxingren14/DualGAN) |
 |      | DistanceGAN  | One-Sided Unsupervised Domain Mapping                        | NIPS 2017  | [1706.00826](https://arxiv.org/abs/1706.00826)               | [sagiebenaim/DistanceGAN](https://github.com/sagiebenaim/DistanceGAN) |
-|      | TextureGAN   | TextureGAN: Controlling Deep Image Synthesis with Texture Patches | CVPR 2018  | [1706.02823](https://arxiv.org/abs/1706.02823)               | [janesjanes/Pytorch-TextureGAN](https://github.com/janesjanes/Pytorch-TextureGAN) |
 |      | Triangle GAN | Triangle Generative Adversarial Networks                     | NIPS 2017  | [1709.06548](https://arxiv.org/abs/1709.06548)               | [LiqunChen0606/Triangle-GAN](https://github.com/LiqunChen0606/Triangle-GAN) |
 |      | CartoonGAN   | CartoonGAN: Generative Adversarial Networks for Photo Cartoonization | CVPR 2018  | [thecvf](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_CartoonGAN_Generative_Adversarial_CVPR_2018_paper.pdf) | [unofficial test](https://github.com/Yijunmaverick/CartoonGAN-Test-Pytorch-Torch), [unofficial pytorch](https://github.com/znxlwm/pytorch-CartoonGAN) |
 |      | SCAN         | Unsupervised Image-to-Image Translation with Stacked Cycle-Consistent Adversarial Networks | ECCV 2018  | [1807.08536](https://arxiv.org/abs/1807.08536)               |                                                              |
@@ -73,15 +72,17 @@ __TOC__
 
 
 
-### Unsupervised - Disentangled (Exemplar guided)
+### Unsupervised - Disentangled (and/or Exemplar guided)
 
-| Note | Model                        | Paper                                                        | Conference | paper link                                     | code link                                                    |
-| ---- | ---------------------------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ------------------------------------------------------------ |
-|      | XGAN                         | XGAN: Unsupervised Image-to-Image Translation for Many-to-Many Mappings | ICML 2018  | [1711.05139](https://arxiv.org/abs/1711.05139) | [dataset](https://google.github.io/cartoonset/)              |
-|      | ELEGANT                      | ELEGANT: Exchanging Latent Encodings with GAN for Transferring Multiple Face Attributes | ECCV 2018  | [1803.10562](https://arxiv.org/abs/1803.10562) | [Prinsphield/ELEGANT](https://github.com/Prinsphield/ELEGANT) |
-|      | MUNIT                        | Multimodal Unsupervised Image-to-Image Translation           | ECCV 2018  | [1804.04732](https://arxiv.org/abs/1804.04732) | [NVlabs/MUNIT](https://github.com/NVlabs/MUNIT)              |
-|      | cd-GAN (Conditional DualGAN) | Conditional Image-to-Image Translation                       | CVPR 2018  | [1805.00251](https://arxiv.org/abs/1805.00251) |                                                              |
-|      | EG-UNIT                      | Exemplar Guided Unsupervised Image-to-Image Translation      |            | [1805.11145](https://arxiv.org/abs/1805.11145) |                                                              |
-|      | DRIT                         | Diverse Image-to-Image Translation via Disentangled Representations | ECCV 2018  | [1808.00948](https://arxiv.org/abs/1808.00948) | [HsinYingLee/DRIT](https://github.com/HsinYingLee/DRIT)      |
+| Note                                | Model                        | Paper                                                        | Conference | paper link                                                   | code link                                                    |
+| ----------------------------------- | ---------------------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| non-disentangle, texture guided     | TextureGAN                   | TextureGAN: Controlling Deep Image Synthesis with Texture Patches | CVPR 2018  | [1706.02823](https://arxiv.org/abs/1706.02823)               | [janesjanes/Pytorch-TextureGAN](https://github.com/janesjanes/Pytorch-TextureGAN) |
+|                                     | XGAN                         | XGAN: Unsupervised Image-to-Image Translation for Many-to-Many Mappings | ICML 2018  | [1711.05139](https://arxiv.org/abs/1711.05139)               | [dataset](https://google.github.io/cartoonset/)              |
+|                                     | ELEGANT                      | ELEGANT: Exchanging Latent Encodings with GAN for Transferring Multiple Face Attributes | ECCV 2018  | [1803.10562](https://arxiv.org/abs/1803.10562)               | [Prinsphield/ELEGANT](https://github.com/Prinsphield/ELEGANT) |
+|                                     | MUNIT                        | Multimodal Unsupervised Image-to-Image Translation           | ECCV 2018  | [1804.04732](https://arxiv.org/abs/1804.04732)               | [NVlabs/MUNIT](https://github.com/NVlabs/MUNIT)              |
+|                                     | cd-GAN (Conditional DualGAN) | Conditional Image-to-Image Translation                       | CVPR 2018  | [1805.00251](https://arxiv.org/abs/1805.00251)               |                                                              |
+|                                     | EG-UNIT                      | Exemplar Guided Unsupervised Image-to-Image Translation      |            | [1805.11145](https://arxiv.org/abs/1805.11145)               |                                                              |
+|                                     | DRIT                         | Diverse Image-to-Image Translation via Disentangled Representations | ECCV 2018  | [1808.00948](https://arxiv.org/abs/1808.00948)               | [HsinYingLee/DRIT](https://github.com/HsinYingLee/DRIT)      |
+| non-disentangle, face makeup guided | BeautyGAN                    | BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network | MM 2018    | [author](https://liusi-group.com/pdf/BeautyGAN-camera-ready.pdf) |                                                              |
 
 
