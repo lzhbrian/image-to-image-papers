@@ -1,6 +1,18 @@
 # Image-to-Image papers
 
-Papers are ordered in arXiv submitting time (if applicable).
+A collection of image-to-image papers.
+
+Papers are ordered in arXiv first version submitting time (if applicable).
+
+
+
+TOC
+
+- [Supervised](#supervised)
+- [Unsupervised](#unsupervised)
+    - [with Attention or Mask/Keypoints guided](#unsupervised-with-attention-or-maskkeypoints-guided)
+    - [with Many-to-many (Attributes)](#unsupervised-with-many-to-many-attributes)
+    - [with Disentangled (Exemplar guided)](#unsupervised-with-disentangled-exemplar-guided)
 
 
 
@@ -9,7 +21,7 @@ Papers are ordered in arXiv submitting time (if applicable).
 | Note        | Model                                 | Paper                                                        | Conference | paper link                                     | code link                                                    |
 | ----------- | ------------------------------------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ------------------------------------------------------------ |
 |             | pix2pix                               | Image-to-Image Translation with Conditional Adversarial Networks | CVPR 2017  | [1611.07004](https://arxiv.org/abs/1611.07004) | [junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) |
-|             | Contextual GAN                        | Image Generation from Sketch Constraint Using Contextual GAN | ECCV 2018  | [1705.09966](https://arxiv.org/abs/1705.09966) |                                                              |
+|             | Contextual GAN                        | Image Generation from Sketch Constraint Using Contextual GAN | ECCV 2018  | [1711.08972](https://arxiv.org/abs/1711.08972) |                                                              |
 |             | pix2pix-HD                            | High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | CVPR 2018  | [1711.11585](https://arxiv.org/abs/1711.11585) | [NVIDIA/pix2pixHD](https://github.com/NVIDIA/pix2pixHD)      |
 | one-to-many | BicycleGAN                            | Toward Multimodal Image-to-Image Translation                 | NIPS 2017  | [1711.11586](https://arxiv.org/abs/1711.11586) | [junyanz/BicycleGAN](https://github.com/junyanz/BicycleGAN)  |
 |             | contour2im                            | Smart, Sparse Contours to Represent and Edit Images          | CVPR 2018  | [1712.08232](https://arxiv.org/abs/1712.08232) | [website](https://contour2im.github.io/)                     |
@@ -46,8 +58,8 @@ Papers are ordered in arXiv submitting time (if applicable).
 
 
 
-### Unsupervised Many-to-many (Attributes)
-|      | Model                        | Paper                                                        | Conference                    | paper link                                     | code link                                                    |
+### Unsupervised with Many-to-many (Attributes)
+| Note | Model                        | Paper                                                        | Conference                    | paper link                                     | code link                                                    |
 | ---- | ---------------------------- | ------------------------------------------------------------ | ----------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
 |      | Conditional CycleGAN         | Conditional CycleGAN for Attribute Guided Face Image Generation | ECCV 2018                     | [1705.09966](https://arxiv.org/abs/1705.09966) |                                                              |
 |      | StarGAN                      | StarGAN: Uniﬁed Generative Adversarial Networks for Multi-Domain Image-to-Image Translation | CVPR 2018                     | [1711.09020](https://arxiv.org/abs/1711.09020) | [yunjey/StarGAN](https://github.com/yunjey/StarGAN)          |
