@@ -11,7 +11,7 @@ __TOC__
 - [Supervised](#supervised)
 - [Unsupervised](#unsupervised)
   - [Unsupervised - General](#unsupervised---general)
-  - [Unsupervised - Attention or Mask/Keypoints guided](#unsupervised---attention-or-maskkeypoints-guided)
+  - [Unsupervised - Attention or Mask guided](#unsupervised---attention-or-mask-guided)
   - [Unsupervised - Many-to-many (Attributes)](#unsupervised---many-to-many-attributes)
   - [Unsupervised - Disentangled (Exemplar guided)](#unsupervised---disentangled-exemplar-guided)
 
