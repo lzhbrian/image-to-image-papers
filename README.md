@@ -51,12 +51,13 @@ __TOC__
 
 ### Unsupervised - Attention or Mask/Keypoints guided
 
-| Note             | Model         | Paper                                                        | Conference | paper link                                     | code link |
-| ---------------- | ------------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------- | --------- |
-| mask             | ContrastGAN   | Generative Semantic Manipulation with Mask-Contrasting GAN   | ECCV 2018  | [1708.00315](https://arxiv.org/abs/1708.00315) |           |
-| keypoint         | G2-GAN        | Geometry Guided Adversarial Facial Expression Synthesis      | MM 2018    | [1712.03474](https://arxiv.org/abs/1712.03474) |           |
-|                  | DA-GAN        | DA-GAN: Instance-level Image Translation by Deep Attention Generative Adversarial Networks | CVPR 2018  | [1802.06454](https://arxiv.org/abs/1802.06454) |           |
-| mask / attention | Attention-GAN | Attention-GAN for Object Transﬁguration in Wild Images       |            | [1803.06798](https://arxiv.org/abs/1803.06798) |           |
+| Note             | Model                | Paper                                                        | Conference | paper link                                     | code link                                                    |
+| ---------------- | -------------------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ------------------------------------------------------------ |
+| mask             | ContrastGAN          | Generative Semantic Manipulation with Mask-Contrasting GAN   | ECCV 2018  | [1708.00315](https://arxiv.org/abs/1708.00315) |                                                              |
+| keypoint         | G2-GAN               | Geometry Guided Adversarial Facial Expression Synthesis      | MM 2018    | [1712.03474](https://arxiv.org/abs/1712.03474) |                                                              |
+| attention        | DA-GAN               | DA-GAN: Instance-level Image Translation by Deep Attention Generative Adversarial Networks | CVPR 2018  | [1802.06454](https://arxiv.org/abs/1802.06454) |                                                              |
+| mask / attention | Attention-GAN        | Attention-GAN for Object Transﬁguration in Wild Images       |            | [1803.06798](https://arxiv.org/abs/1803.06798) |                                                              |
+| attention        | Attention guided GAN | Unsupervised Attention-guided Image to Image Translation     | NIPS 2018  | [1806.02311](https://arxiv.org/abs/1806.02311) | [AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation](https://github.com/AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation) |
 
 
 
