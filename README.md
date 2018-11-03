@@ -43,6 +43,7 @@ __TOC__
 |                                     | DualGAN      | DualGAN: Unsupervised Dual Learning for Image-to-Image Translation | ICCV 2017             | [1704.02510](https://arxiv.org/abs/1704.02510)               | [duxingren14/DualGAN](https://github.com/duxingren14/DualGAN) |
 |                                     | DistanceGAN  | One-Sided Unsupervised Domain Mapping                        | NIPS 2017             | [1706.00826](https://arxiv.org/abs/1706.00826)               | [sagiebenaim/DistanceGAN](https://github.com/sagiebenaim/DistanceGAN) |
 |                                     | Triangle GAN | Triangle Generative Adversarial Networks                     | NIPS 2017             | [1709.06548](https://arxiv.org/abs/1709.06548)               | [LiqunChen0606/Triangle-GAN](https://github.com/LiqunChen0606/Triangle-GAN) |
+| keypoint guided                     | G2-GAN       | Geometry Guided Adversarial Facial Expression Synthesis      | MM 2018               | [1712.03474](https://arxiv.org/abs/1712.03474)               |                                                              |
 |                                     | CartoonGAN   | CartoonGAN: Generative Adversarial Networks for Photo Cartoonization | CVPR 2018             | [thecvf](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_CartoonGAN_Generative_Adversarial_CVPR_2018_paper.pdf) | [unofficial test](https://github.com/Yijunmaverick/CartoonGAN-Test-Pytorch-Torch), [unofficial pytorch](https://github.com/znxlwm/pytorch-CartoonGAN) |
 | non-adversarial                     | NAM          | NAM: Non-Adversarial Unsupervised Domain Mapping             | ECCV 2018             | [1806.00804](https://arxiv.org/abs/1806.00804)               | [facebookresearch/nam](https://github.com/facebookresearch/nam) |
 |                                     | SCAN         | Unsupervised Image-to-Image Translation with Stacked Cycle-Consistent Adversarial Networks | ECCV 2018             | [1807.08536](https://arxiv.org/abs/1807.08536)               |                                                              |
@@ -51,12 +52,11 @@ __TOC__
 
 
 
-### Unsupervised - Attention or Mask/Keypoints guided
+### Unsupervised - Attention or Mask guided
 
 | Note                 | Model                | Paper                                                        | Conference | paper link                                     | code link                                                    |
 | -------------------- | -------------------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ------------------------------------------------------------ |
 | mask                 | ContrastGAN          | Generative Semantic Manipulation with Mask-Contrasting GAN   | ECCV 2018  | [1708.00315](https://arxiv.org/abs/1708.00315) |                                                              |
-| keypoint             | G2-GAN               | Geometry Guided Adversarial Facial Expression Synthesis      | MM 2018    | [1712.03474](https://arxiv.org/abs/1712.03474) |                                                              |
 | attention            | DA-GAN               | DA-GAN: Instance-level Image Translation by Deep Attention Generative Adversarial Networks | CVPR 2018  | [1802.06454](https://arxiv.org/abs/1802.06454) |                                                              |
 | mask / attention     | Attention-GAN        | Attention-GAN for Object Transﬁguration in Wild Images       |            | [1803.06798](https://arxiv.org/abs/1803.06798) |                                                              |
 | attention            | Attention guided GAN | Unsupervised Attention-guided Image to Image Translation     | NIPS 2018  | [1806.02311](https://arxiv.org/abs/1806.02311) | [AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation](https://github.com/AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation) |
@@ -89,5 +89,6 @@ __TOC__
 |                                     | EG-UNIT                      | Exemplar Guided Unsupervised Image-to-Image Translation      |            | [1805.11145](https://arxiv.org/abs/1805.11145)               |                                                              |
 |                                     | DRIT                         | Diverse Image-to-Image Translation via Disentangled Representations | ECCV 2018  | [1808.00948](https://arxiv.org/abs/1808.00948)               | [HsinYingLee/DRIT](https://github.com/HsinYingLee/DRIT)      |
 | non-disentangle, face makeup guided | BeautyGAN                    | BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network | MM 2018    | [author](https://liusi-group.com/pdf/BeautyGAN-camera-ready.pdf) |                                                              |
+|                                     | UFDN                         | A Unified Feature Disentangler for Multi-Domain Image Translation and Manipulation | NIPS 2018  | [1809.01361](https://arxiv.org/abs/1809.01361)               | [Alexander-H-Liu/UFDN](https://github.com/Alexander-H-Liu/UFDN) |
 
 
