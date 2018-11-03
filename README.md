@@ -10,11 +10,10 @@ __TOC__
 
 - [Supervised](#supervised)
 - [Unsupervised](#unsupervised)
-  - [Unsupervised - General](#unsupervised---general)
-  - [Unsupervised - Attention or Mask guided](#unsupervised---attention-or-mask-guided)
-  - [Unsupervised - Many-to-many (Attributes)](#unsupervised---many-to-many-attributes)
-  - [Unsupervised - Disentangled (Exemplar guided)](#unsupervised---disentangled-exemplar-guided)
-
+    - [Unsupervised - General](#unsupervised---general)
+    - [Unsupervised - Attention or Mask guided](#unsupervised---attention-or-mask-guided)
+    - [Unsupervised - Many-to-many (Attributes)](#unsupervised---many-to-many-attributes)
+    - [Unsupervised - Disentangled (and/or Exemplar guided)](#unsupervised---disentangled-andor-exemplar-guided)
 
 
 ## Supervised
