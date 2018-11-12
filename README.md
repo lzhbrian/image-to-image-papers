@@ -4,6 +4,8 @@ A collection of image-to-image papers.
 
 Papers are ordered in arXiv first version submitting time (if applicable).
 
+Feel free to send a PR or issue.
+
 
 
 __TOC__
@@ -18,16 +20,18 @@ __TOC__
 
 ## Supervised
 
-| Note            | Model                                 | Paper                                                        | Conference | paper link                                     | code link                                                    |
-| --------------- | ------------------------------------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ------------------------------------------------------------ |
-|                 | pix2pix                               | Image-to-Image Translation with Conditional Adversarial Networks | CVPR 2017  | [1611.07004](https://arxiv.org/abs/1611.07004) | [junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) |
-| texture guided  | TextureGAN                            | TextureGAN: Controlling Deep Image Synthesis with Texture Patches | CVPR 2018  | [1706.02823](https://arxiv.org/abs/1706.02823) | [janesjanes/Pytorch-TextureGAN](https://github.com/janesjanes/Pytorch-TextureGAN) |
-|                 | Contextual GAN                        | Image Generation from Sketch Constraint Using Contextual GAN | ECCV 2018  | [1711.08972](https://arxiv.org/abs/1711.08972) |                                                              |
-|                 | pix2pix-HD                            | High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | CVPR 2018  | [1711.11585](https://arxiv.org/abs/1711.11585) | [NVIDIA/pix2pixHD](https://github.com/NVIDIA/pix2pixHD)      |
-| one-to-many     | BicycleGAN                            | Toward Multimodal Image-to-Image Translation                 | NIPS 2017  | [1711.11586](https://arxiv.org/abs/1711.11586) | [junyanz/BicycleGAN](https://github.com/junyanz/BicycleGAN)  |
-| keypoint guided | G2-GAN                                | Geometry Guided Adversarial Facial Expression Synthesis      | MM 2018    | [1712.03474](https://arxiv.org/abs/1712.03474) |                                                              |
-|                 | contour2im                            | Smart, Sparse Contours to Represent and Edit Images          | CVPR 2018  | [1712.08232](https://arxiv.org/abs/1712.08232) | [website](https://contour2im.github.io/)                     |
-| disentangle     | Cross-domain disentanglement networks | Image-to-image translation for cross-domain disentanglement  | NIPS 2018  | [1805.09730](https://arxiv.org/abs/1805.09730) |                                                              |
+| Note            | Model                                     | Paper                                                        | Conference | paper link                                     | code link                                                    |
+| --------------- | ----------------------------------------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ------------------------------------------------------------ |
+|                 | pix2pix                                   | Image-to-Image Translation with Conditional Adversarial Networks | CVPR 2017  | [1611.07004](https://arxiv.org/abs/1611.07004) | [junyanz/pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) |
+| texture guided  | TextureGAN                                | TextureGAN: Controlling Deep Image Synthesis with Texture Patches | CVPR 2018  | [1706.02823](https://arxiv.org/abs/1706.02823) | [janesjanes/Pytorch-TextureGAN](https://github.com/janesjanes/Pytorch-TextureGAN) |
+|                 | Contextual GAN                            | Image Generation from Sketch Constraint Using Contextual GAN | ECCV 2018  | [1711.08972](https://arxiv.org/abs/1711.08972) |                                                              |
+|                 | pix2pix-HD                                | High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs | CVPR 2018  | [1711.11585](https://arxiv.org/abs/1711.11585) | [NVIDIA/pix2pixHD](https://github.com/NVIDIA/pix2pixHD)      |
+| one-to-many     | BicycleGAN                                | Toward Multimodal Image-to-Image Translation                 | NIPS 2017  | [1711.11586](https://arxiv.org/abs/1711.11586) | [junyanz/BicycleGAN](https://github.com/junyanz/BicycleGAN)  |
+| keypoint guided | G2-GAN                                    | Geometry Guided Adversarial Facial Expression Synthesis      | MM 2018    | [1712.03474](https://arxiv.org/abs/1712.03474) |                                                              |
+|                 | contour2im                                | Smart, Sparse Contours to Represent and Edit Images          | CVPR 2018  | [1712.08232](https://arxiv.org/abs/1712.08232) | [website](https://contour2im.github.io/)                     |
+| disentangle     | Cross-domain disentanglement networks     | Image-to-image translation for cross-domain disentanglement  | NIPS 2018  | [1805.09730](https://arxiv.org/abs/1805.09730) |                                                              |
+| video           | vid2vid                                   | Video-to-Video Synthesis                                     | NIPS 2018  | [1808.06601](https://arxiv.org/abs/1808.06601) | [NVIDIA/vid2vid](https://github.com/NVIDIA/vid2vid)          |
+| video           | pix2pix-HD + Temporal Smoothing + faceGAN | Everybody Dance Now                                          | ECCVW 2018 | [1808.07371](https://arxiv.org/abs/1808.07371) | [website](https://carolineec.github.io/everybody_dance_now/) |
 
 
 
