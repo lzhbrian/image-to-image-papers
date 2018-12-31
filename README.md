@@ -59,14 +59,14 @@ __TOC__
 
 ### Unsupervised - Attention or Mask guided
 
-| Note                 | Model                | Paper                                                        | Conference            | paper link                                             | code link                                                    |
-| -------------------- | -------------------- | ------------------------------------------------------------ | --------------------- | ------------------------------------------------------ | ------------------------------------------------------------ |
-| mask                 | ContrastGAN          | Generative Semantic Manipulation with Mask-Contrasting GAN   | ECCV 2018             | [1708.00315](https://arxiv.org/abs/1708.00315)         |                                                              |
-| attention            | DA-GAN               | DA-GAN: Instance-level Image Translation by Deep Attention Generative Adversarial Networks | CVPR 2018             | [1802.06454](https://arxiv.org/abs/1802.06454)         |                                                              |
-| mask / attention     | Attention-GAN        | Attention-GAN for Object Transfiguration in Wild Images      | ECCV 2018             | [1803.06798](https://arxiv.org/abs/1803.06798)         |                                                              |
-| attention            | Attention guided GAN | Unsupervised Attention-guided Image to Image Translation     | NIPS 2018             | [1806.02311](https://arxiv.org/abs/1806.02311)         | [AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation](https://github.com/AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation) |
-| attention, one-sided |                      | Show, Attend and Translate: Unsupervised Image Translation with Self-Regularization and Attention |                       | [1806.06195](https://arxiv.org/abs/1806.06195)         |                                                              |
-| instance aware       | InstaGAN             | Instance-aware image-to-image translation                    | ICLR 2019 (in review) | [openreview](https://openreview.net/pdf?id=ryxwJhC9YX) |                                                              |
+| Note                 | Model                | Paper                                                        | Conference | paper link                                             | code link                                                    |
+| -------------------- | -------------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------ | ------------------------------------------------------------ |
+| mask                 | ContrastGAN          | Generative Semantic Manipulation with Mask-Contrasting GAN   | ECCV 2018  | [1708.00315](https://arxiv.org/abs/1708.00315)         |                                                              |
+| attention            | DA-GAN               | DA-GAN: Instance-level Image Translation by Deep Attention Generative Adversarial Networks | CVPR 2018  | [1802.06454](https://arxiv.org/abs/1802.06454)         |                                                              |
+| mask / attention     | Attention-GAN        | Attention-GAN for Object Transfiguration in Wild Images      | ECCV 2018  | [1803.06798](https://arxiv.org/abs/1803.06798)         |                                                              |
+| attention            | Attention guided GAN | Unsupervised Attention-guided Image to Image Translation     | NIPS 2018  | [1806.02311](https://arxiv.org/abs/1806.02311)         | [AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation](https://github.com/AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation) |
+| attention, one-sided |                      | Show, Attend and Translate: Unsupervised Image Translation with Self-Regularization and Attention |            | [1806.06195](https://arxiv.org/abs/1806.06195)         |                                                              |
+| instance aware       | InstaGAN             | Instance-aware image-to-image translation                    | ICLR 2019  | [openreview](https://openreview.net/pdf?id=ryxwJhC9YX) | [sangwoomo/instagan](https://github.com/sangwoomo/instagan)  |
 
 
 
@@ -100,5 +100,6 @@ __TOC__
 |                                     | UFDN                         | A Unified Feature Disentangler for Multi-Domain Image Translation and Manipulation | NIPS 2018  | [1809.01361](https://arxiv.org/abs/1809.01361)               | [Alexander-H-Liu/UFDN](https://github.com/Alexander-H-Liu/UFDN) |
 | non-disentangle, face makeup guided | BeautyGAN                    | BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network | MM 2018    | [author](https://liusi-group.com/pdf/BeautyGAN-camera-ready.pdf) |                                                              |
 |                                     | Style-based generator        | A Style-Based Generator Architecture for Generative Adversarial Networks |            | [1812.04948](https://arxiv.org/abs/1812.04948)               | [website](https://stylegan.xyz/code)                         |
+|                                     | GDWTC                        | Image-to-Image Translation via Group-wise Deep Whitening and Coloring Transformation |            | [1812.09912](https://arxiv.org/abs/1812.09912)               |                                                              |
 
 
