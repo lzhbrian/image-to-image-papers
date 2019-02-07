@@ -82,6 +82,7 @@ __TOC__
 |                          | ModularGAN                   | Modular Generative Adversarial Networks                      | ECCV 2018                     | [1804.03343](https://arxiv.org/abs/1804.03343) |                                                              |
 | sparsely grouped dataset | SG-GAN                       | Sparsely Grouped Multi-task Generative Adversarial Networks for Facial Attribute Manipulation | MM 2018                       | [1805.07509](https://arxiv.org/abs/1805.07509) | [zhangqianhui/Sparsely-Grouped-GAN](https://github.com/zhangqianhui/Sparsely-Grouped-GAN) |
 |                          | GANimation                   | GANimation: Anatomically-aware Facial Animation from a Single Image | ECCV 2018 (honorable mention) | [1807.09251](https://arxiv.org/abs/1807.09251) | [albertpumarola/GANimation](https://github.com/albertpumarola/GANimation) |
+|                          | SingleGAN                    | SingleGAN: Image-to-Image Translation by a Single-Generator Network using Multiple Generative Adversarial Learning | ACCV 2018                     | [1810.04991](https://arxiv.org/abs/1810.04991) | [Xiaoming-Yu/SingleGAN](https://github.com/Xiaoming-Yu/SingleGAN) |
 |                          | SMIT                         | SMIT: Stochastic Multi-Label Image-to-Image Translation      |                               | [1812.03704](https://arxiv.org/abs/1812.03704) |                                                              |
 
 
@@ -99,7 +100,7 @@ __TOC__
 |                                     | DRIT                         | Diverse Image-to-Image Translation via Disentangled Representations | ECCV 2018  | [1808.00948](https://arxiv.org/abs/1808.00948)               | [HsinYingLee/DRIT](https://github.com/HsinYingLee/DRIT)      |
 |                                     | UFDN                         | A Unified Feature Disentangler for Multi-Domain Image Translation and Manipulation | NIPS 2018  | [1809.01361](https://arxiv.org/abs/1809.01361)               | [Alexander-H-Liu/UFDN](https://github.com/Alexander-H-Liu/UFDN) |
 | non-disentangle, face makeup guided | BeautyGAN                    | BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network | MM 2018    | [author](https://liusi-group.com/pdf/BeautyGAN-camera-ready.pdf) |                                                              |
-|                                     | Style-based generator        | A Style-Based Generator Architecture for Generative Adversarial Networks |            | [1812.04948](https://arxiv.org/abs/1812.04948)               | [website](https://stylegan.xyz/code)                         |
+|                                     | Style-based generator        | A Style-Based Generator Architecture for Generative Adversarial Networks |            | [1812.04948](https://arxiv.org/abs/1812.04948)               | [NVlabs/stylegan](https://github.com/NVlabs/stylegan)        |
 |                                     | GDWTC                        | Image-to-Image Translation via Group-wise Deep Whitening and Coloring Transformation |            | [1812.09912](https://arxiv.org/abs/1812.09912)               |                                                              |
 
 
