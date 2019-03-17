@@ -32,6 +32,7 @@ __TOC__
 | disentangle     | Cross-domain disentanglement networks     | Image-to-image translation for cross-domain disentanglement  | NIPS 2018  | [1805.09730](https://arxiv.org/abs/1805.09730) |                                                              |
 | video           | vid2vid                                   | Video-to-Video Synthesis                                     | NIPS 2018  | [1808.06601](https://arxiv.org/abs/1808.06601) | [NVIDIA/vid2vid](https://github.com/NVIDIA/vid2vid)          |
 | video           | pix2pix-HD + Temporal Smoothing + faceGAN | Everybody Dance Now                                          | ECCVW 2018 | [1808.07371](https://arxiv.org/abs/1808.07371) | [website](https://carolineec.github.io/everybody_dance_now/) |
+| (un)supervised  | MSGAN                                     | Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis | CVPR 2019  | [1903.05628](https://arxiv.org/abs/1903.05628) | [HelenMao/MSGAN](https://github.com/HelenMao/MSGAN)          |
 
 
 
