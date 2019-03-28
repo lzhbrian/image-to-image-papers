@@ -33,6 +33,7 @@ __TOC__
 | video           | vid2vid                                   | Video-to-Video Synthesis                                     | NIPS 2018  | [1808.06601](https://arxiv.org/abs/1808.06601) | [NVIDIA/vid2vid](https://github.com/NVIDIA/vid2vid)          |
 | video           | pix2pix-HD + Temporal Smoothing + faceGAN | Everybody Dance Now                                          | ECCVW 2018 | [1808.07371](https://arxiv.org/abs/1808.07371) | [website](https://carolineec.github.io/everybody_dance_now/) |
 | (un)supervised  | MSGAN                                     | Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis | CVPR 2019  | [1903.05628](https://arxiv.org/abs/1903.05628) | [HelenMao/MSGAN](https://github.com/HelenMao/MSGAN)          |
+| Edge and color domain to reconstrcut image  | PI-REC                                     | PI-REC: Progressive Image Reconstruction Network With Edge and Color Domain |  | [1903.10146](https://arxiv.org/abs/1903.10146) | [youyuge34/PI-REC](https://github.com/youyuge34/PI-REC)          |
 
 
 
