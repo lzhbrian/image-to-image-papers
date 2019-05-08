@@ -59,6 +59,8 @@ __TOC__
 |                                     | Art2Real     | Art2Real: Unfolding the Reality of Artworks via Semantically-Aware Image-to-Image Translation | CVPR 2019  | [1811.10666](https://arxiv.org/abs/1811.10666)               |                                                              |
 |                                     | HarmonicGAN  | Harmonic Unpaired Image-to-image Translation                 | ICLR 2019  | [1902.09727](https://arxiv.org/abs/1902.09727)               |                                                              |
 |                                     | TransGaGa    | TransGaGa: Geometry-Aware Unsupervised Image-to-Image Translation | CVPR 2019  | [1904.09571](https://arxiv.org/abs/1904.09571)               | [project](https://wywu.github.io/projects/TGaGa/TGaGa.html)  |
+|                      | AGUIT                | Attribute Guided Unpaired Image-to-Image Translation with Semi-supervised Learning |            | [1904.12428](https://arxiv.org/abs/1904.12428)         |                                                              |
+| few shot             | FUNIT                | Few-Shot Unsupervised Image-to-Image Translation             |            | [1905.01723](https://arxiv.org/abs/1905.01723)         | [project](https://nvlabs.github.io/FUNIT), [nvlabs/FUNIT](https://github.com/nvlabs/FUNIT/) |
 
 
 
@@ -72,8 +74,6 @@ __TOC__
 | attention            | Attention guided GAN | Unsupervised Attention-guided Image to Image Translation     | NIPS 2018  | [1806.02311](https://arxiv.org/abs/1806.02311)         | [AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation](https://github.com/AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation) |
 | attention, one-sided |                      | Show, Attend and Translate: Unsupervised Image Translation with Self-Regularization and Attention |            | [1806.06195](https://arxiv.org/abs/1806.06195)         |                                                              |
 | instance aware       | InstaGAN             | Instance-aware image-to-image translation                    | ICLR 2019  | [openreview](https://openreview.net/pdf?id=ryxwJhC9YX) | [sangwoomo/instagan](https://github.com/sangwoomo/instagan)  |
-|                      | AGUIT                | Attribute Guided Unpaired Image-to-Image Translation with Semi-supervised Learning |            | [1904.12428](https://arxiv.org/abs/1904.12428)         |                                                              |
-| few shot             | FUNIT                | Few-Shot Unsupervised Image-to-Image Translation             |            | [1905.01723](https://arxiv.org/abs/1905.01723)         | [project](https://nvlabs.github.io/FUNIT), [nvlabs/FUNIT](https://github.com/nvlabs/FUNIT/) |
 
 
 
