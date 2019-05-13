@@ -13,7 +13,7 @@ __TOC__
 - [Supervised](#supervised)
 - [Unsupervised](#unsupervised)
     - [Unsupervised - General](#unsupervised---general)
-    - [Unsupervised - Attention or Mask guided](#unsupervised---attention-or-mask-guided)
+    - [Unsupervised - Attention/Instance guided](#unsupervised---attentioninstance-guided)
     - [Unsupervised - Many-to-many (Attributes)](#unsupervised---many-to-many-attributes)
     - [Unsupervised - Disentangled (and/or Exemplar guided)](#unsupervised---disentangled-andor-exemplar-guided)
 
@@ -64,16 +64,17 @@ __TOC__
 
 
 
-### Unsupervised - Attention or Mask guided
+### Unsupervised - Attention/Instance guided
 
-| Note                 | Model                | Paper                                                        | Conference | paper link                                             | code link                                                    |
-| -------------------- | -------------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------ | ------------------------------------------------------------ |
-| mask                 | ContrastGAN          | Generative Semantic Manipulation with Mask-Contrasting GAN   | ECCV 2018  | [1708.00315](https://arxiv.org/abs/1708.00315)         |                                                              |
-| attention            | DA-GAN               | DA-GAN: Instance-level Image Translation by Deep Attention Generative Adversarial Networks | CVPR 2018  | [1802.06454](https://arxiv.org/abs/1802.06454)         |                                                              |
-| mask / attention     | Attention-GAN        | Attention-GAN for Object Transfiguration in Wild Images      | ECCV 2018  | [1803.06798](https://arxiv.org/abs/1803.06798)         |                                                              |
-| attention            | Attention guided GAN | Unsupervised Attention-guided Image to Image Translation     | NIPS 2018  | [1806.02311](https://arxiv.org/abs/1806.02311)         | [AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation](https://github.com/AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation) |
-| attention, one-sided |                      | Show, Attend and Translate: Unsupervised Image Translation with Self-Regularization and Attention |            | [1806.06195](https://arxiv.org/abs/1806.06195)         |                                                              |
-| instance aware       | InstaGAN             | Instance-aware image-to-image translation                    | ICLR 2019  | [openreview](https://openreview.net/pdf?id=ryxwJhC9YX) | [sangwoomo/instagan](https://github.com/sangwoomo/instagan)  |
+| Note                  | Model                | Paper                                                        | Conference | paper link                                             | code link                                                    |
+| --------------------- | -------------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------ | ------------------------------------------------------------ |
+| mask                  | ContrastGAN          | Generative Semantic Manipulation with Mask-Contrasting GAN   | ECCV 2018  | [1708.00315](https://arxiv.org/abs/1708.00315)         |                                                              |
+| attention             | DA-GAN               | DA-GAN: Instance-level Image Translation by Deep Attention Generative Adversarial Networks | CVPR 2018  | [1802.06454](https://arxiv.org/abs/1802.06454)         |                                                              |
+| mask / attention      | Attention-GAN        | Attention-GAN for Object Transfiguration in Wild Images      | ECCV 2018  | [1803.06798](https://arxiv.org/abs/1803.06798)         |                                                              |
+| attention             | Attention guided GAN | Unsupervised Attention-guided Image to Image Translation     | NIPS 2018  | [1806.02311](https://arxiv.org/abs/1806.02311)         | [AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation](https://github.com/AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation) |
+| attention, one-sided  |                      | Show, Attend and Translate: Unsupervised Image Translation with Self-Regularization and Attention |            | [1806.06195](https://arxiv.org/abs/1806.06195)         |                                                              |
+| instance aware - mask | InstaGAN             | Instance-aware image-to-image translation                    | ICLR 2019  | [openreview](https://openreview.net/pdf?id=ryxwJhC9YX) | [sangwoomo/instagan](https://github.com/sangwoomo/instagan)  |
+| instance level - bbox | INIT                 | Towards Instance-level Image-to-Image Translation            | CVPR 2019  | [1905.01744](https://arxiv.org/abs/1905.01744)         |                                                              |
 
 
 
