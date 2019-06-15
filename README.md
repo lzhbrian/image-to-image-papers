@@ -59,7 +59,7 @@ __TOC__
 |                                     | Art2Real     | Art2Real: Unfolding the Reality of Artworks via Semantically-Aware Image-to-Image Translation | CVPR 2019  | [1811.10666](https://arxiv.org/abs/1811.10666)               |                                                              |
 |                                     | HarmonicGAN  | Harmonic Unpaired Image-to-image Translation                 | ICLR 2019  | [1902.09727](https://arxiv.org/abs/1902.09727)               |                                                              |
 |                                     | TransGaGa    | TransGaGa: Geometry-Aware Unsupervised Image-to-Image Translation | CVPR 2019  | [1904.09571](https://arxiv.org/abs/1904.09571)               | [project](https://wywu.github.io/projects/TGaGa/TGaGa.html)  |
-|                      | AGUIT                | Attribute Guided Unpaired Image-to-Image Translation with Semi-supervised Learning |            | [1904.12428](https://arxiv.org/abs/1904.12428)         |                                                              |
+|                      | AGUIT                | Attribute Guided Unpaired Image-to-Image Translation with Semi-supervised Learning |            | [1904.12428](https://arxiv.org/abs/1904.12428)         | [imlixinyang/AGUIT](https://github.com/imlixinyang/AGUIT) |
 | few shot             | FUNIT                | Few-Shot Unsupervised Image-to-Image Translation             |            | [1905.01723](https://arxiv.org/abs/1905.01723)         | [project](https://nvlabs.github.io/FUNIT), [nvlabs/FUNIT](https://github.com/nvlabs/FUNIT/) |
 
 
@@ -75,6 +75,7 @@ __TOC__
 | attention, one-sided  |                      | Show, Attend and Translate: Unsupervised Image Translation with Self-Regularization and Attention |            | [1806.06195](https://arxiv.org/abs/1806.06195)         |                                                              |
 | instance aware - mask | InstaGAN             | Instance-aware image-to-image translation                    | ICLR 2019  | [openreview](https://openreview.net/pdf?id=ryxwJhC9YX) | [sangwoomo/instagan](https://github.com/sangwoomo/instagan)  |
 | instance level - bbox | INIT                 | Towards Instance-level Image-to-Image Translation            | CVPR 2019  | [1905.01744](https://arxiv.org/abs/1905.01744)         | [project](http://zhiqiangshen.com/projects/INIT/index.html)  |
+| mask guided           |                      | Mask-Guided Portrait Editing with Conditional GANs           | CVPR 2019  | [1905.10346](https://arxiv.org/abs/1905.10346)         | [cientgu/Mask_Guided_Portrait_Editing](https://github.com/cientgu/Mask_Guided_Portrait_Editing) |
 
 
 
@@ -92,6 +93,8 @@ __TOC__
 |                          | GANimation                   | GANimation: Anatomically-aware Facial Animation from a Single Image | ECCV 2018 (honorable mention) | [1807.09251](https://arxiv.org/abs/1807.09251) | [albertpumarola/GANimation](https://github.com/albertpumarola/GANimation) |
 |                          | SingleGAN                    | SingleGAN: Image-to-Image Translation by a Single-Generator Network using Multiple Generative Adversarial Learning | ACCV 2018                     | [1810.04991](https://arxiv.org/abs/1810.04991) | [Xiaoming-Yu/SingleGAN](https://github.com/Xiaoming-Yu/SingleGAN) |
 |                          | SMIT                         | SMIT: Stochastic Multi-Label Image-to-Image Translation      |                               | [1812.03704](https://arxiv.org/abs/1812.03704) |                                                              |
+|                          | InjectionGAN                 | Toward Learning a Unified Many-to-Many Mapping for Diverse Image Translation |                               | [1905.08766](https://arxiv.org/abs/1905.08766) |                                                              |
+|                          |                              | Image-to-Image Translation with Multi-Path Consistency Regularization | IJCAI 2019                    | [1905.12498](https://arxiv.org/abs/1905.12498) |                                                              |
 
 
 
@@ -108,7 +111,7 @@ __TOC__
 |                                     | DRIT                         | Diverse Image-to-Image Translation via Disentangled Representations | ECCV 2018  | [1808.00948](https://arxiv.org/abs/1808.00948)               | [HsinYingLee/DRIT](https://github.com/HsinYingLee/DRIT)      |
 |                                     | UFDN                         | A Unified Feature Disentangler for Multi-Domain Image Translation and Manipulation | NIPS 2018  | [1809.01361](https://arxiv.org/abs/1809.01361)               | [Alexander-H-Liu/UFDN](https://github.com/Alexander-H-Liu/UFDN) |
 | non-disentangle, face makeup guided | BeautyGAN                    | BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network | MM 2018    | [author](https://liusi-group.com/pdf/BeautyGAN-camera-ready.pdf) |                                                              |
-|                                     | GDWTC                        | Image-to-Image Translation via Group-wise Deep Whitening and Coloring Transformation | CVPR 2019  | [1812.09912](https://arxiv.org/abs/1812.09912)               |                                                              |
+|                                     | GDWCT                        | Image-to-Image Translation via Group-wise Deep Whitening and Coloring Transformation | CVPR 2019  | [1812.09912](https://arxiv.org/abs/1812.09912)               | [WonwoongCho/GDWCT](https://github.com/WonwoongCho/GDWCT)    |
 |                                     | DRIT++                       | DRIT++: Diverse Image-to-Image Translation via Disentangled Representations |            | [1905.01270](https://arxiv.org/abs/1905.01270)               | [project](http://vllab.ucmerced.edu/hylee/DRIT_pp/), [HsinYingLee/MDMM](https://github.com/HsinYingLee/MDMM) |
 
 
