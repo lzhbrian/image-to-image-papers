@@ -30,11 +30,15 @@ __TOC__
 | keypoint guided | G2-GAN                                    | Geometry Guided Adversarial Facial Expression Synthesis      | MM 2018    | [1712.03474](https://arxiv.org/abs/1712.03474) |                                                              |
 |                 | contour2im                                | Smart, Sparse Contours to Represent and Edit Images          | CVPR 2018  | [1712.08232](https://arxiv.org/abs/1712.08232) | [website](https://contour2im.github.io/)                     |
 | disentangle     | Cross-domain disentanglement networks     | Image-to-image translation for cross-domain disentanglement  | NIPS 2018  | [1805.09730](https://arxiv.org/abs/1805.09730) |                                                              |
+| gesture | GestureGAN | GestureGAN for Hand Gesture-to-Gesture Translation in the Wild | MM 2018 | [1808.04859](https://arxiv.org/abs/1808.04859) | [Ha0Tang/GestureGAN](https://github.com/Ha0Tang/GestureGAN) |
 | video           | vid2vid                                   | Video-to-Video Synthesis                                     | NIPS 2018  | [1808.06601](https://arxiv.org/abs/1808.06601) | [NVIDIA/vid2vid](https://github.com/NVIDIA/vid2vid)          |
 | video           | pix2pix-HD + Temporal Smoothing + faceGAN | Everybody Dance Now                                          | ECCVW 2018 | [1808.07371](https://arxiv.org/abs/1808.07371) | [website](https://carolineec.github.io/everybody_dance_now/) |
 | (un)supervised  | MSGAN                                     | Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis | CVPR 2019  | [1903.05628](https://arxiv.org/abs/1903.05628) | [HelenMao/MSGAN](https://github.com/HelenMao/MSGAN)          |
-| Edge and color domain to reconstrcut image  | PI-REC                                     | PI-REC: Progressive Image Reconstruction Network With Edge and Color Domain |  | [1903.10146](https://arxiv.org/abs/1903.10146) | [youyuge34/PI-REC](https://github.com/youyuge34/PI-REC)          |
 | semantic to image | SPADE | Semantic Image Synthesis with Spatially-Adaptive Normalization | CVPR 2019 | [1903.07291](https://arxiv.org/abs/1903.07291) | [NVlabs/SPADE](https://github.com/NVlabs/SPADE) |
+| Edge and color domain to reconstrcut image  | PI-REC                                     | PI-REC: Progressive Image Reconstruction Network With Edge and Color Domain |  | [1903.10146](https://arxiv.org/abs/1903.10146) | [youyuge34/PI-REC](https://github.com/youyuge34/PI-REC)          |
+| Cross-view image translation | SelectionGAN | Multi-Channel Attention Selection GAN with Cascaded Semantic Guidance for Cross-View Image Translation | CVPR 2019 | [1904.06807](https://arxiv.org/abs/1904.06807) | [Ha0Tang/SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) |
+| keypoint guided | C2-GAN | Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation | MM 2019 | [1908.00999](https://arxiv.org/abs/1908.00999) |  |
+
 
 
 ## Unsupervised
@@ -62,7 +66,7 @@ __TOC__
 | Person Generation | DG-Net | Joint Discriminative and Generative Learning for Person Re-identification | CVPR 2019 | [1904.07223](https://arxiv.org/abs/1904.07223) | [NVlabs/DG-Net](https://github.com/NVlabs/DG-Net) |
 |                                     | TransGaGa    | TransGaGa: Geometry-Aware Unsupervised Image-to-Image Translation | CVPR 2019  | [1904.09571](https://arxiv.org/abs/1904.09571)               | [project](https://wywu.github.io/projects/TGaGa/TGaGa.html)  |
 |                      | AGUIT                | Attribute Guided Unpaired Image-to-Image Translation with Semi-supervised Learning |            | [1904.12428](https://arxiv.org/abs/1904.12428)         | [imlixinyang/AGUIT](https://github.com/imlixinyang/AGUIT) |
-| few shot             | FUNIT                | Few-Shot Unsupervised Image-to-Image Translation             |            | [1905.01723](https://arxiv.org/abs/1905.01723)         | [project](https://nvlabs.github.io/FUNIT), [nvlabs/FUNIT](https://github.com/nvlabs/FUNIT/) |
+| few shot             | FUNIT                | Few-Shot Unsupervised Image-to-Image Translation             | ICCV 2019 | [1905.01723](https://arxiv.org/abs/1905.01723)         | [project](https://nvlabs.github.io/FUNIT), [nvlabs/FUNIT](https://github.com/nvlabs/FUNIT/) |
 | zero shot | ZstGAN | ZstGAN: An Adversarial Approach for Unsupervised Zero-Shot Image-to-Image Translation | | [1906.00184](https://arxiv.org/abs/1906.00184) | [linjx-ustc1106/ZstGAN-PyTorch](https://github.com/linjx-ustc1106/ZstGAN-PyTorch) |
 |  |  | Cross-Domain Cascaded Deep Feature Translation | | [1906.01526](https://arxiv.org/abs/1906.01526) |  |
 
@@ -77,6 +81,7 @@ __TOC__
 | attention             | Attention guided GAN | Unsupervised Attention-guided Image to Image Translation     | NIPS 2018  | [1806.02311](https://arxiv.org/abs/1806.02311)         | [AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation](https://github.com/AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation) |
 | attention, one-sided  |                      | Show, Attend and Translate: Unsupervised Image Translation with Self-Regularization and Attention |            | [1806.06195](https://arxiv.org/abs/1806.06195)         |                                                              |
 | instance aware - mask | InstaGAN             | Instance-aware image-to-image translation                    | ICLR 2019  | [openreview](https://openreview.net/pdf?id=ryxwJhC9YX) | [sangwoomo/instagan](https://github.com/sangwoomo/instagan)  |
+|                       | AttentionGAN         | Attention-Guided Generative Adversarial Networks for Unsupervised Image-to-Image Translation | IJCNN 2019 | [1903.12296](https://arxiv.org/abs/1903.12296)         | [Ha0Tang/AttentionGAN](https://github.com/Ha0Tang/AttentionGAN) |
 | instance level - bbox | INIT                 | Towards Instance-level Image-to-Image Translation            | CVPR 2019  | [1905.01744](https://arxiv.org/abs/1905.01744)         | [project](http://zhiqiangshen.com/projects/INIT/index.html)  |
 | mask guided           |                      | Mask-Guided Portrait Editing with Conditional GANs           | CVPR 2019  | [1905.10346](https://arxiv.org/abs/1905.10346)         | [cientgu/Mask_Guided_Portrait_Editing](https://github.com/cientgu/Mask_Guided_Portrait_Editing) |
 |                       | U-GAT-IT             | U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation |            | [1907.10830](https://arxiv.org/abs/1907.10830)         | [taki0112/UGATIT](https://github.com/taki0112/UGATIT)        |
