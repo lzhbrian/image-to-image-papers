@@ -57,13 +57,14 @@ __TOC__
 | video                               | Recycle-GAN  | Recycle-GAN: Unsupervised Video Retargeting                  | ECCV 2018  | [1808.05174](https://arxiv.org/abs/1808.05174)               | [aayushbansal/Recycle-GAN](https://github.com/aayushbansal/Recycle-GAN) |
 |                                     | OT-CycleGAN  | Guiding the One-to-one Mapping in CycleGAN via Optimal Transport | AAAI 2019  | [1811.06284](https://arxiv.org/abs/1811.06284)               |                                                              |
 |                                     | Art2Real     | Art2Real: Unfolding the Reality of Artworks via Semantically-Aware Image-to-Image Translation | CVPR 2019  | [1811.10666](https://arxiv.org/abs/1811.10666)               | [aimagelab/art2real](https://github.com/aimagelab/art2real) |
+| latent cross-consistency | CrossNet | CrossNet: Latent Cross-Consistency for Unpaired Image Translation |  | [1901.04530](https://arxiv.org/abs/1901.04530) |  |
 |                                     | HarmonicGAN  | Harmonic Unpaired Image-to-image Translation                 | ICLR 2019  | [1902.09727](https://arxiv.org/abs/1902.09727)               |                                                              |
+| Person Generation | DG-Net | Joint Discriminative and Generative Learning for Person Re-identification | CVPR 2019 | [1904.07223](https://arxiv.org/abs/1904.07223) | [NVlabs/DG-Net](https://github.com/NVlabs/DG-Net) |
 |                                     | TransGaGa    | TransGaGa: Geometry-Aware Unsupervised Image-to-Image Translation | CVPR 2019  | [1904.09571](https://arxiv.org/abs/1904.09571)               | [project](https://wywu.github.io/projects/TGaGa/TGaGa.html)  |
 |                      | AGUIT                | Attribute Guided Unpaired Image-to-Image Translation with Semi-supervised Learning |            | [1904.12428](https://arxiv.org/abs/1904.12428)         | [imlixinyang/AGUIT](https://github.com/imlixinyang/AGUIT) |
 | few shot             | FUNIT                | Few-Shot Unsupervised Image-to-Image Translation             |            | [1905.01723](https://arxiv.org/abs/1905.01723)         | [project](https://nvlabs.github.io/FUNIT), [nvlabs/FUNIT](https://github.com/nvlabs/FUNIT/) |
 | zero shot | ZstGAN | ZstGAN: An Adversarial Approach for Unsupervised Zero-Shot Image-to-Image Translation | | [1906.00184](https://arxiv.org/abs/1906.00184) | [linjx-ustc1106/ZstGAN-PyTorch](https://github.com/linjx-ustc1106/ZstGAN-PyTorch) |
 |  |  | Cross-Domain Cascaded Deep Feature Translation | | [1906.01526](https://arxiv.org/abs/1906.01526) |  |
-| Person Generation | DG-Net | Joint Discriminative and Generative Learning for Person Re-identification | CVPR 2019 | [1904.07223](https://arxiv.org/abs/1904.07223) | [NVlabs/DG-Net](https://github.com/NVlabs/DG-Net) |
 
 
 ### Unsupervised - Attention/Instance guided
