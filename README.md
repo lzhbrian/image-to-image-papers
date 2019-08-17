@@ -35,7 +35,6 @@ __TOC__
 | (un)supervised  | MSGAN                                     | Mode Seeking Generative Adversarial Networks for Diverse Image Synthesis | CVPR 2019  | [1903.05628](https://arxiv.org/abs/1903.05628) | [HelenMao/MSGAN](https://github.com/HelenMao/MSGAN)          |
 | Edge and color domain to reconstrcut image  | PI-REC                                     | PI-REC: Progressive Image Reconstruction Network With Edge and Color Domain |  | [1903.10146](https://arxiv.org/abs/1903.10146) | [youyuge34/PI-REC](https://github.com/youyuge34/PI-REC)          |
 | semantic to image | SPADE | Semantic Image Synthesis with Spatially-Adaptive Normalization | CVPR 2019 | [1903.07291](https://arxiv.org/abs/1903.07291) | [NVlabs/SPADE](https://github.com/NVlabs/SPADE) |
-| Person Generation | DG-Net | Joint Discriminative and Generative Learning for Person Re-identification | CVPR 2019 | [1904.07223](https://arxiv.org/abs/1904.07223) | [NVlabs/DG-Net](https://github.com/NVlabs/DG-Net) |
 
 
 ## Unsupervised
@@ -64,7 +63,7 @@ __TOC__
 | few shot             | FUNIT                | Few-Shot Unsupervised Image-to-Image Translation             |            | [1905.01723](https://arxiv.org/abs/1905.01723)         | [project](https://nvlabs.github.io/FUNIT), [nvlabs/FUNIT](https://github.com/nvlabs/FUNIT/) |
 | zero shot | ZstGAN | ZstGAN: An Adversarial Approach for Unsupervised Zero-Shot Image-to-Image Translation | | [1906.00184](https://arxiv.org/abs/1906.00184) | [linjx-ustc1106/ZstGAN-PyTorch](https://github.com/linjx-ustc1106/ZstGAN-PyTorch) |
 |  |  | Cross-Domain Cascaded Deep Feature Translation | | [1906.01526](https://arxiv.org/abs/1906.01526) |  |
-
+| Person Generation | DG-Net | Joint Discriminative and Generative Learning for Person Re-identification | CVPR 2019 | [1904.07223](https://arxiv.org/abs/1904.07223) | [NVlabs/DG-Net](https://github.com/NVlabs/DG-Net) |
 
 
 ### Unsupervised - Attention/Instance guided
