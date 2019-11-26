@@ -16,6 +16,7 @@ __TOC__
     - [Unsupervised - Attention/Instance guided](#unsupervised---attentioninstance-guided)
     - [Unsupervised - Many-to-many (Attributes)](#unsupervised---many-to-many-attributes)
     - [Unsupervised - Disentangled (and/or Exemplar guided)](#unsupervised---disentangled-andor-exemplar-guided)
+- [To be classified](#to-be-classified)
 
 
 ## Supervised
@@ -125,3 +126,9 @@ __TOC__
 |                                     | DRIT++                       | DRIT++: Diverse Image-to-Image Translation via Disentangled Representations |            | [1905.01270](https://arxiv.org/abs/1905.01270)               | [project](http://vllab.ucmerced.edu/hylee/DRIT_pp/), [HsinYingLee/MDMM](https://github.com/HsinYingLee/MDMM) |
 
 
+
+## To be classified
+
+* Breaking the cycle -- Colleagues are all you need. https://arxiv.org/abs/1911.10538
+* EDIT: Exemplar-Domain Aware Image-to-Image Translation. https://arxiv.org/abs/1911.10520
+* Multi-mapping Image-to-Image Translation via Learning Disentanglement. https://arxiv.org/abs/1909.07877
