@@ -39,6 +39,7 @@ __TOC__
 | Edge and color domain to reconstrcut image  | PI-REC                                     | PI-REC: Progressive Image Reconstruction Network With Edge and Color Domain |  | [1903.10146](https://arxiv.org/abs/1903.10146) | [youyuge34/PI-REC](https://github.com/youyuge34/PI-REC)          |
 | Cross-view image translation | SelectionGAN | Multi-Channel Attention Selection GAN with Cascaded Semantic Guidance for Cross-View Image Translation | CVPR 2019 | [1904.06807](https://arxiv.org/abs/1904.06807) | [Ha0Tang/SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) |
 | keypoint guided | C2-GAN | Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation | MM 2019 | [1908.00999](https://arxiv.org/abs/1908.00999) |  |
+| Few shot, video | Few-shot vid2vid | Few-shot Video-to-Video Synthesis | NeurIPS 2019 | [1910.12713](https://arxiv.org/abs/1910.12713) | [NVlabs/few-shot-vid2vid](https://github.com/NVlabs/few-shot-vid2vid) |
 
 
 
