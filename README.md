@@ -138,3 +138,5 @@ __TOC__
 * Multi-mapping Image-to-Image Translation via Learning Disentanglement. https://arxiv.org/abs/1909.07877
 
 * StarGAN v2: Diverse Image Synthesis for Multiple Domains. https://arxiv.org/abs/1912.01865
+
+* GANHOPPER: Multi-Hop GAN for Unsupervised Image-to-Image Translation. https://arxiv.org/abs/2002.10102
