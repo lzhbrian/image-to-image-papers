@@ -19,6 +19,8 @@ __TOC__
 - [To be classified](#to-be-classified)
 
 
+
+
 ## Supervised
 
 | Note            | Model                                     | Paper                                                        | Conference | paper link                                     | code link                                                    |
@@ -64,7 +66,7 @@ __TOC__
 | video                               | Recycle-GAN  | Recycle-GAN: Unsupervised Video Retargeting                  | ECCV 2018  | [1808.05174](https://arxiv.org/abs/1808.05174)               | [aayushbansal/Recycle-GAN](https://github.com/aayushbansal/Recycle-GAN) |
 |                                     | OT-CycleGAN  | Guiding the One-to-one Mapping in CycleGAN via Optimal Transport | AAAI 2019  | [1811.06284](https://arxiv.org/abs/1811.06284)               |                                                              |
 |                                     | Art2Real     | Art2Real: Unfolding the Reality of Artworks via Semantically-Aware Image-to-Image Translation | CVPR 2019  | [1811.10666](https://arxiv.org/abs/1811.10666)               | [aimagelab/art2real](https://github.com/aimagelab/art2real) |
-| latent cross-consistency | CrossNet | CrossNet: Latent Cross-Consistency for Unpaired Image Translation |  | [1901.04530](https://arxiv.org/abs/1901.04530) |  |
+| latent cross-consistency | CrossNet | CrossNet: Latent Cross-Consistency for Unpaired Image Translation | WACV 2020 | [1901.04530](https://arxiv.org/abs/1901.04530) |  |
 |                                     | HarmonicGAN  | Harmonic Unpaired Image-to-image Translation                 | ICLR 2019  | [1902.09727](https://arxiv.org/abs/1902.09727)               |                                                              |
 | Person Generation | DG-Net | Joint Discriminative and Generative Learning for Person Re-identification | CVPR 2019 | [1904.07223](https://arxiv.org/abs/1904.07223) | [NVlabs/DG-Net](https://github.com/NVlabs/DG-Net) |
 |                                     | TransGaGa    | TransGaGa: Geometry-Aware Unsupervised Image-to-Image Translation | CVPR 2019  | [1904.09571](https://arxiv.org/abs/1904.09571)               | [project](https://wywu.github.io/projects/TGaGa/TGaGa.html)  |
@@ -72,6 +74,7 @@ __TOC__
 | few shot             | FUNIT                | Few-Shot Unsupervised Image-to-Image Translation             | ICCV 2019 | [1905.01723](https://arxiv.org/abs/1905.01723)         | [project](https://nvlabs.github.io/FUNIT), [nvlabs/FUNIT](https://github.com/nvlabs/FUNIT/) |
 | zero shot | ZstGAN | ZstGAN: An Adversarial Approach for Unsupervised Zero-Shot Image-to-Image Translation | | [1906.00184](https://arxiv.org/abs/1906.00184) | [linjx-ustc1106/ZstGAN-PyTorch](https://github.com/linjx-ustc1106/ZstGAN-PyTorch) |
 |  |  | Cross-Domain Cascaded Deep Feature Translation | | [1906.01526](https://arxiv.org/abs/1906.01526) |  |
+| | | Breaking the cycle -- Colleagues are all you need. | | [1911.10538](https://arxiv.org/abs/1911.10538) | |
 
 
 ### Unsupervised - Attention/Instance guided
@@ -82,32 +85,33 @@ __TOC__
 | attention             | DA-GAN               | DA-GAN: Instance-level Image Translation by Deep Attention Generative Adversarial Networks | CVPR 2018  | [1802.06454](https://arxiv.org/abs/1802.06454)         |                                                              |
 | mask / attention      | Attention-GAN        | Attention-GAN for Object Transfiguration in Wild Images      | ECCV 2018  | [1803.06798](https://arxiv.org/abs/1803.06798)         |                                                              |
 | attention             | Attention guided GAN | Unsupervised Attention-guided Image to Image Translation     | NIPS 2018  | [1806.02311](https://arxiv.org/abs/1806.02311)         | [AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation](https://github.com/AlamiMejjati/Unsupervised-Attention-guided-Image-to-Image-Translation) |
-| attention, one-sided  |                      | Show, Attend and Translate: Unsupervised Image Translation with Self-Regularization and Attention |            | [1806.06195](https://arxiv.org/abs/1806.06195)         |                                                              |
+| attention, one-sided  |                      | Show, Attend and Translate: Unsupervised Image Translation with Self-Regularization and Attention | TIP 2019   | [1806.06195](https://arxiv.org/abs/1806.06195)         |                                                              |
 | instance aware - mask | InstaGAN             | Instance-aware image-to-image translation                    | ICLR 2019  | [openreview](https://openreview.net/pdf?id=ryxwJhC9YX) | [sangwoomo/instagan](https://github.com/sangwoomo/instagan)  |
 |                       | AttentionGAN         | Attention-Guided Generative Adversarial Networks for Unsupervised Image-to-Image Translation | IJCNN 2019 | [1903.12296](https://arxiv.org/abs/1903.12296)         | [Ha0Tang/AttentionGAN](https://github.com/Ha0Tang/AttentionGAN) |
 | instance level - bbox | INIT                 | Towards Instance-level Image-to-Image Translation            | CVPR 2019  | [1905.01744](https://arxiv.org/abs/1905.01744)         | [project](http://zhiqiangshen.com/projects/INIT/index.html)  |
 | mask guided           |                      | Mask-Guided Portrait Editing with Conditional GANs           | CVPR 2019  | [1905.10346](https://arxiv.org/abs/1905.10346)         | [cientgu/Mask_Guided_Portrait_Editing](https://github.com/cientgu/Mask_Guided_Portrait_Editing) |
-|                       | U-GAT-IT             | U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation |            | [1907.10830](https://arxiv.org/abs/1907.10830)         | [taki0112/UGATIT](https://github.com/taki0112/UGATIT), [znxlwm/UGATIT-pytorch](https://github.com/znxlwm/UGATIT-pytorch) |
+|                       | U-GAT-IT             | U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation | ICLR 2020  | [1907.10830](https://arxiv.org/abs/1907.10830)         | [taki0112/UGATIT](https://github.com/taki0112/UGATIT), [znxlwm/UGATIT-pytorch](https://github.com/znxlwm/UGATIT-pytorch) |
 
 
 
 ### Unsupervised - Many-to-many (Attributes)
-| Note                     | Model                        | Paper                                                        | Conference                    | paper link                                     | code link                                                    |
-| ------------------------ | ---------------------------- | ------------------------------------------------------------ | ----------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
-|                          | IcGAN                        | Invertible Conditional GANs for image editing                | NIPSW 2016                    | [1611.06355](https://arxiv.org/abs/1611.06355) | [Guim3/IcGAN](https://github.com/Guim3/IcGAN)                |
-|                          | Conditional CycleGAN         | Conditional CycleGAN for Attribute Guided Face Image Generation | ECCV 2018                     | [1705.09966](https://arxiv.org/abs/1705.09966) |                                                              |
-|                          | StarGAN                      | StarGAN: Uniﬁed Generative Adversarial Networks for Multi-Domain Image-to-Image Translation | CVPR 2018                     | [1711.09020](https://arxiv.org/abs/1711.09020) | [yunjey/StarGAN](https://github.com/yunjey/StarGAN)          |
-|                          | AttGAN                       | AttGAN: Facial Attribute Editing by Only Changing What You Want | TIP 2019                      | [1711.10678](https://arxiv.org/abs/1711.10678) | [LynnHo/AttGAN-Tensorflow](https://github.com/LynnHo/AttGAN-Tensorflow) |
-|                          | ComboGAN                     | ComboGAN: Unrestrained Scalability for Image Domain Translation | CVPRW 2018                    | [1712.06909](https://arxiv.org/abs/1712.06909) | [AAnoosheh/ComboGAN](https://github.com/AAnoosheh/ComboGAN)  |
-|                          | AugCGAN (Augmented CycleGAN) | Augmented CycleGAN: Learning Many-to-Many Mappings from Unpaired Data | ICML 2018                     | [1802.10151](https://arxiv.org/abs/1802.10151) | [aalmah/augmented_cyclegan](https://github.com/aalmah/augmented_cyclegan) |
-|                          | ModularGAN                   | Modular Generative Adversarial Networks                      | ECCV 2018                     | [1804.03343](https://arxiv.org/abs/1804.03343) |                                                              |
-| sparsely grouped dataset | SG-GAN                       | Sparsely Grouped Multi-task Generative Adversarial Networks for Facial Attribute Manipulation | MM 2018                       | [1805.07509](https://arxiv.org/abs/1805.07509) | [zhangqianhui/Sparsely-Grouped-GAN](https://github.com/zhangqianhui/Sparsely-Grouped-GAN) |
-|                          | GANimation                   | GANimation: Anatomically-aware Facial Animation from a Single Image | ECCV 2018 (honorable mention) | [1807.09251](https://arxiv.org/abs/1807.09251) | [albertpumarola/GANimation](https://github.com/albertpumarola/GANimation) |
-|                          | SingleGAN                    | SingleGAN: Image-to-Image Translation by a Single-Generator Network using Multiple Generative Adversarial Learning | ACCV 2018                     | [1810.04991](https://arxiv.org/abs/1810.04991) | [Xiaoming-Yu/SingleGAN](https://github.com/Xiaoming-Yu/SingleGAN) |
-|                          | SMIT                         | SMIT: Stochastic Multi-Label Image-to-Image Translation      | ICCVW 2019                    | [1812.03704](https://arxiv.org/abs/1812.03704) | [BCV-Uniandes/SMIT](https://github.com/BCV-Uniandes/SMIT)    |
-|                          | InjectionGAN                 | Toward Learning a Unified Many-to-Many Mapping for Diverse Image Translation |                               | [1905.08766](https://arxiv.org/abs/1905.08766) |                                                              |
-|                          |                              | Image-to-Image Translation with Multi-Path Consistency Regularization | IJCAI 2019                    | [1905.12498](https://arxiv.org/abs/1905.12498) |                                                              |
-|                          | RelGAN                       | RelGAN: Multi-Domain Image-to-Image Translation via Relative Attributes | ICCV 2019                     | [1908.07269](https://arxiv.org/abs/1908.07269) | [elvisyjlin/RelGAN-PyTorch](https://github.com/elvisyjlin/RelGAN-PyTorch), [willylulu/RelGAN](https://github.com/willylulu/RelGAN) |
+| Note                     | Model                        | Paper                                                        | Conference | paper link                                     | code link                                                    |
+| ------------------------ | ---------------------------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ------------------------------------------------------------ |
+|                          | IcGAN                        | Invertible Conditional GANs for image editing                | NIPSW 2016 | [1611.06355](https://arxiv.org/abs/1611.06355) | [Guim3/IcGAN](https://github.com/Guim3/IcGAN)                |
+|                          | Conditional CycleGAN         | Conditional CycleGAN for Attribute Guided Face Image Generation | ECCV 2018  | [1705.09966](https://arxiv.org/abs/1705.09966) |                                                              |
+|                          | StarGAN                      | StarGAN: Uniﬁed Generative Adversarial Networks for Multi-Domain Image-to-Image Translation | CVPR 2018  | [1711.09020](https://arxiv.org/abs/1711.09020) | [yunjey/StarGAN](https://github.com/yunjey/StarGAN)          |
+|                          | AttGAN                       | AttGAN: Facial Attribute Editing by Only Changing What You Want | TIP 2019   | [1711.10678](https://arxiv.org/abs/1711.10678) | [LynnHo/AttGAN-Tensorflow](https://github.com/LynnHo/AttGAN-Tensorflow) |
+|                          | ComboGAN                     | ComboGAN: Unrestrained Scalability for Image Domain Translation | CVPRW 2018 | [1712.06909](https://arxiv.org/abs/1712.06909) | [AAnoosheh/ComboGAN](https://github.com/AAnoosheh/ComboGAN)  |
+|                          | AugCGAN (Augmented CycleGAN) | Augmented CycleGAN: Learning Many-to-Many Mappings from Unpaired Data | ICML 2018  | [1802.10151](https://arxiv.org/abs/1802.10151) | [aalmah/augmented_cyclegan](https://github.com/aalmah/augmented_cyclegan) |
+|                          | ModularGAN                   | Modular Generative Adversarial Networks                      | ECCV 2018  | [1804.03343](https://arxiv.org/abs/1804.03343) |                                                              |
+| sparsely grouped dataset | SG-GAN                       | Sparsely Grouped Multi-task Generative Adversarial Networks for Facial Attribute Manipulation | MM 2018    | [1805.07509](https://arxiv.org/abs/1805.07509) | [zhangqianhui/Sparsely-Grouped-GAN](https://github.com/zhangqianhui/Sparsely-Grouped-GAN) |
+|                          | GANimation                   | GANimation: Anatomically-aware Facial Animation from a Single Image | ECCV 2018  | [1807.09251](https://arxiv.org/abs/1807.09251) | [albertpumarola/GANimation](https://github.com/albertpumarola/GANimation) |
+|                          | SingleGAN                    | SingleGAN: Image-to-Image Translation by a Single-Generator Network using Multiple Generative Adversarial Learning | ACCV 2018  | [1810.04991](https://arxiv.org/abs/1810.04991) | [Xiaoming-Yu/SingleGAN](https://github.com/Xiaoming-Yu/SingleGAN) |
+|                          | SMIT                         | SMIT: Stochastic Multi-Label Image-to-Image Translation      | ICCVW 2019 | [1812.03704](https://arxiv.org/abs/1812.03704) | [BCV-Uniandes/SMIT](https://github.com/BCV-Uniandes/SMIT)    |
+|                          | InjectionGAN                 | Toward Learning a Unified Many-to-Many Mapping for Diverse Image Translation |            | [1905.08766](https://arxiv.org/abs/1905.08766) |                                                              |
+|                          |                              | Image-to-Image Translation with Multi-Path Consistency Regularization | IJCAI 2019 | [1905.12498](https://arxiv.org/abs/1905.12498) |                                                              |
+|                          | RelGAN                       | RelGAN: Multi-Domain Image-to-Image Translation via Relative Attributes | ICCV 2019  | [1908.07269](https://arxiv.org/abs/1908.07269) | [elvisyjlin/RelGAN-PyTorch](https://github.com/elvisyjlin/RelGAN-PyTorch), [willylulu/RelGAN](https://github.com/willylulu/RelGAN) |
+|                          | StarGAN v2                   | StarGAN v2: Diverse Image Synthesis for Multiple Domains     | CVPR 2020  | [1912.01865](https://arxiv.org/abs/1912.01865) | [clovaai/stargan-v2](https://github.com/clovaai/stargan-v2)  |
 
 
 
@@ -125,19 +129,17 @@ __TOC__
 |                                     | UFDN                         | A Unified Feature Disentangler for Multi-Domain Image Translation and Manipulation | NIPS 2018  | [1809.01361](https://arxiv.org/abs/1809.01361)               | [Alexander-H-Liu/UFDN](https://github.com/Alexander-H-Liu/UFDN) |
 | non-disentangle, face makeup guided | BeautyGAN                    | BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network | MM 2018    | [author](https://liusi-group.com/pdf/BeautyGAN-camera-ready.pdf) | [wtjiang98/BeautyGAN_pytorch](https://github.com/wtjiang98/BeautyGAN_pytorch) |
 |                                     | GDWCT                        | Image-to-Image Translation via Group-wise Deep Whitening and Coloring Transformation | CVPR 2019  | [1812.09912](https://arxiv.org/abs/1812.09912)               | [WonwoongCho/GDWCT](https://github.com/WonwoongCho/GDWCT)    |
-|                                     | DRIT++                       | DRIT++: Diverse Image-to-Image Translation via Disentangled Representations |            | [1905.01270](https://arxiv.org/abs/1905.01270)               | [project](http://vllab.ucmerced.edu/hylee/DRIT_pp/), [HsinYingLee/MDMM](https://github.com/HsinYingLee/MDMM) |
+|                                     | DRIT++                       | DRIT++: Diverse Image-to-Image Translation via Disentangled Representations | IJCV 2020 | [1905.01270](https://arxiv.org/abs/1905.01270)               | [project](http://vllab.ucmerced.edu/hylee/DRIT_pp/), [HsinYingLee/MDMM](https://github.com/HsinYingLee/MDMM) |
 |                                     | HiDT                      | High-Resolution Daytime Translation Without Domain Labels | CVPR 2020           |  [2003.08791](https://arxiv.org/abs/2003.08791)             | [project](https://saic-mdal.github.io/HiDT/), [saic-mdal/HiDT](https://github.com/saic-mdal/HiDT) |
 
 
 
 ## To be classified
 
-* Breaking the cycle -- Colleagues are all you need. https://arxiv.org/abs/1911.10538
-
 * EDIT: Exemplar-Domain Aware Image-to-Image Translation. https://arxiv.org/abs/1911.10520
 
-* Multi-mapping Image-to-Image Translation via Learning Disentanglement. https://arxiv.org/abs/1909.07877
-
-* StarGAN v2: Diverse Image Synthesis for Multiple Domains. https://arxiv.org/abs/1912.01865
+* Multi-mapping Image-to-Image Translation via Learning Disentanglement. https://arxiv.org/abs/1909.07877. NeurIPS 2019. https://github.com/Xiaoming-Yu/DMIT
 
 * GANHOPPER: Multi-Hop GAN for Unsupervised Image-to-Image Translation. https://arxiv.org/abs/2002.10102
+
+* GMM-UNIT: Unsupervised Multi-Domain and Multi-Modal Image-to-Image Translation via Attribute Gaussian Mixture Modeling. https://arxiv.org/abs/2003.06788.
