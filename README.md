@@ -126,6 +126,7 @@ __TOC__
 | non-disentangle, face makeup guided | BeautyGAN                    | BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network | MM 2018    | [author](https://liusi-group.com/pdf/BeautyGAN-camera-ready.pdf) | [wtjiang98/BeautyGAN_pytorch](https://github.com/wtjiang98/BeautyGAN_pytorch) |
 |                                     | GDWCT                        | Image-to-Image Translation via Group-wise Deep Whitening and Coloring Transformation | CVPR 2019  | [1812.09912](https://arxiv.org/abs/1812.09912)               | [WonwoongCho/GDWCT](https://github.com/WonwoongCho/GDWCT)    |
 |                                     | DRIT++                       | DRIT++: Diverse Image-to-Image Translation via Disentangled Representations |            | [1905.01270](https://arxiv.org/abs/1905.01270)               | [project](http://vllab.ucmerced.edu/hylee/DRIT_pp/), [HsinYingLee/MDMM](https://github.com/HsinYingLee/MDMM) |
+|                                     | HiDT                      | High-Resolution Daytime Translation Without Domain Labels |            | CVPR 2020               | [project](https://saic-mdal.github.io/HiDT/), [Hsaic-mdal/HiDT](https://github.com/saic-mdal/HiDT) |
 
 
 
